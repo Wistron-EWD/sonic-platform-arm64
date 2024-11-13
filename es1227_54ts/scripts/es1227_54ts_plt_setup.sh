@@ -5,10 +5,6 @@ fw_uboot_env_cfg()
     echo "Setting up U-Boot environment..."
     MACH_FILE="/host/machine.conf"
     PLATFORM=`sed -n 's/onie_platform=\(.*\)/\1/p' $MACH_FILE`
-
-    FW_ENV_DEFAULT='/dev/mtd1 0x00000000 0x00010000 0x00010000'
-
-    echo $FW_ENV_DEFAULT > /etc/fw_env.config
 }
 
 es1227_54ts_profile()

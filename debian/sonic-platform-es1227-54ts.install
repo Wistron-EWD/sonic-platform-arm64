@@ -1,5 +1,6 @@
 es1227_54ts/scripts/es1227_54ts_plt_setup.sh usr/local/bin
 es1227_54ts/scripts/entropy.py etc/
+es1227_54ts/scripts/fw_env.config etc/
 es1227_54ts/scripts/es1227_54ts-init.sh usr/local/bin
 es1227_54ts/service/es1227_54ts-init.service etc/systemd/system
 es1227_54ts/service/es1227_54ts-sysled.service etc/systemd/system
